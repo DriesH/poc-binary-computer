@@ -5,6 +5,11 @@
 ## Index
 - [What do you need?](https://github.com/DriesH/poc-binary-computer#what-do-you-need)
 - [Let's get started](https://github.com/DriesH/poc-binary-computer#lets-get-started)
+    - [adding](https://github.com/DriesH/poc-binary-computer#adding)
+    - [subtracting](https://github.com/DriesH/poc-binary-computer#subtracting)
+- [Besluit](https://github.com/DriesH/poc-binary-computer#besluit)
+- [Disclaimer](https://github.com/DriesH/poc-binary-computer#disclaimer)
+- [Schema's](https://github.com/DriesH/poc-binary-computer#schemas)
 - [Bronnen](https://github.com/DriesH/poc-binary-computer#bronnen)
 
 
@@ -49,20 +54,20 @@ We kunnen ook negatief gaan:
 Dus ***1*** 1111111 is -1 in decimaal. Enzovoort.
 
 
-### Besluit
+## Besluit
 
 Je kan dus een 8 bit adder/subtracter maken, het enige nadeel is, binair lezen is verdomt moeilijk! :p
 
-### Disclaimer
+## Disclaimer
 
 Ik heb voor het subtracten even hulp gevraagd aan mijn vader, vooral over de two's complement. Maar voor de rest heb ik alles aan de hand van mijn cursus digitale van 2 jaar geleden en het boek Digital Computer Electronics gemaakt.
 
-### Schema's
+## Schema's
 
 ![adding-two-registers](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer_0001.jpg)
 ![inverting-a-register](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer_0002.jpg)
 
-### Bronnen
+## Bronnen
 
 - Digital Computer Electronics
 - Datasheets van alle chips
