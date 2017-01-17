@@ -41,4 +41,29 @@ Beide registers hangen aan een Octal buffer (74LS245n). Dit moet omdat als ik ee
 ![me-building-it](https://github.com/DriesH/poc-binary-computer/blob/master/images/me-building-it.gif)
 ***Me building it***
 
-Om binair van elkaar te kunnen aftrekken, moet je 1 van de registers zijn two's complement nemen. Dit doe je door eerst de bits allemaal te inverten en daarna de carry in bit van een van de twee adders die nog open is HIGH te maken. Wat je eigenlijk doet is, je inverteert het register en add een 1, wat je de two's complement geeft van de waarde in het register. Die 1 die je add is dan de teken bit.
+Om binair van elkaar te kunnen aftrekken, moet je 1 van de registers zijn two's complement nemen. Dit doe je door eerst de bits allemaal te inverten en daarna de carry in bit van een van de twee adders die nog open is HIGH te maken. Wat je eigenlijk doet is, je inverteert het register en add een 1, wat je de two's complement geeft van de waarde in het register. Die 1 die je add is dan de teken bit. Tekenbit 1 is negetief, tekenbit 0 is positief.
+
+Dus 0000 0011 - 0000 0001 geeft 0000 00010.
+
+We kunnen ook negatief gaan:
+Dus ***1*** 1111111 is -1 in decimaal. Enzovoort.
+
+
+### Besluit
+
+Je kan dus een 8 bit adder/subtracter maken, het enige nadeel is, binair lezen is verdomt moeilijk! :p
+
+### Disclaimer
+
+Ik heb voor het subtracten even hulp gevraagd aan mijn vader, vooral over de two's complement. Maar voor de rest heb ik alles aan de hand van mijn cursus digitale van 2 jaar geleden en het boek Digital Computer Electronics gemaakt.
+
+### Schema's
+
+![adding-two-registers](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer_0001.jpg)
+![inverting-a-register](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer_0002.jpg)
+
+### Bronnen
+
+- Digital Computer Electronics
+- Datasheets van alle chips
+- Mijn vader (elektronica expert)
