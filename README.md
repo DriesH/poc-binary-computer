@@ -64,7 +64,9 @@ Ik heb voor het subtracten even hulp gevraagd aan mijn vader, vooral over de two
 
 ## Schema's
 
+***Basic layout***
 ![adding-two-registers](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer_0001.jpg)
+***Inverting for subtraction***
 ![inverting-a-register](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer_0002.jpg)
 
 ## Bronnen
