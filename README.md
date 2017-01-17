@@ -1,6 +1,6 @@
 # Proof of Concept: Can you build an 8bit adding and subtracting ALU.
 
-![header-img](https://github.com/DriesH/poc-binary-computer/images/header-img.jpg)
+![header-img](https://github.com/DriesH/poc-binary-computer/blob/master/images/header-img.jpg)
 
 ## Index
 - [What do you need?]()
