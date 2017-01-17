@@ -24,7 +24,10 @@ Elke chip heeft een carry over bit, dit kan je eigenlijk het beste uitleggen aan
 
 ***Carry over bit***
 
-![carry-over-bit](https://github.com/DriesH/poc-binary-computer/blob/master/images/carry-over-bit.jpg)
+![carry-over-bit](https://github.com/DriesH/poc-binary-computer/blob/master/images/8bit-computer.jpg)
 
 
-Om dus van twee 4 bit adders een 8 bit adder te maken, moet je 1 van de carry overs vast hangen aan de andere zijn carry in. Dit zorgt ervoor dat als je als je 1000 + 1000 doet, je 10000 kan krijgen.
+Om dus van twee 4 bit adders een 8 bit adder te maken, moet je 1 van de carry overs vast hangen aan de andere zijn carry in. Dit zorgt ervoor dat als je 1000 + 1000 doet, je 10000 kan krijgen.
+
+We moeten natuurlijk ook nog onze bits ergens vandaan laten komen. Hiervoor gebruik ik 2 dipswitches die ik register A en B ga noemen.
+Beide registers hangen aan een Octal buffer (74LS245n). Dit moet omdat als ik een bit HIGH maak deze wordt los gekoppeld van de GROUND en dan gaat zijn spanning beginnen floaten. Omdat de 74LS283 vrij kieskeurig is in zijn signalen gaat hij floating waarden als HIGH altijd LOW maken. Met een buffer er tussen worden floating signalen HIGH en werkt het perfect met de twee adders. Dit is iets dat ik heel lang op heb liggen sukkelen voor ik door had wat nu eigenlijk het probleem was.
