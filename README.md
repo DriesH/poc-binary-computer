@@ -16,6 +16,8 @@ Met deze componenten heb je genoeg om een heel basic 8bit adder te maken.
 
 Als je wilt kunnen subtracten moet je 2 XOR chips (74LS86) hebben en een switch zodat je je computer in 2 standen kan zetten.
 
+Op het einde vindt je al de schema's terug die ik getekend heb van deze computer.
+
 ## Let's get started.
 
 ### Adding
@@ -37,3 +39,6 @@ Beide registers hangen aan een Octal buffer (74LS245n). Dit moet omdat als ik ee
 ### Subtracting
 
 ![me-building-it](https://github.com/DriesH/poc-binary-computer/blob/master/images/me-building-it.gif)
+***Me building it***
+
+Om binair van elkaar te kunnen aftrekken, moet je 1 van de registers zijn two's complement nemen. Dit doe je door eerst de bits allemaal te inverten en daarna de carry in bit van een van de twee adders die nog open is HIGH te maken. Wat je eigenlijk doet is, je inverteert het register en add een 1, wat je de two's complement geeft van de waarde in het register. Die 1 die je add is dan de teken bit.
