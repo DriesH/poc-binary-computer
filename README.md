@@ -18,6 +18,8 @@ Als je wilt kunnen subtracten moet je 2 XOR chips (74LS86) hebben en een switch 
 
 ## Let's get started.
 
+### Adding
+
 Ik ben begonnen met de twee 4bit adder chips (74LS283) hun datasheets op te zoeken. Daarin heb ik gevonden hoe de chips werken, en hoe ik van twee 4bit adders één 8bit adder kon maken. Eigenlijk ben je op dit moment al bijna klaar als je dit weet. In theorie natuurlijk.
 
 Elke chip heeft een carry over bit, dit kan je eigenlijk het beste uitleggen aan de hand van good ol' cijferen uit de lagere school.
@@ -31,3 +33,7 @@ Om dus van twee 4 bit adders een 8 bit adder te maken, moet je 1 van de carry ov
 
 We moeten natuurlijk ook nog onze bits ergens vandaan laten komen. Hiervoor gebruik ik 2 dipswitches die ik register A en B ga noemen.
 Beide registers hangen aan een Octal buffer (74LS245n). Dit moet omdat als ik een bit HIGH maak deze wordt los gekoppeld van de GROUND en dan gaat zijn spanning beginnen floaten. Omdat de 74LS283 vrij kieskeurig is in zijn signalen gaat hij floating waarden als HIGH altijd LOW maken. Met een buffer er tussen worden floating signalen HIGH en werkt het perfect met de twee adders. Dit is iets dat ik heel lang op heb liggen sukkelen voor ik door had wat nu eigenlijk het probleem was.
+
+### Subtracting
+
+![me-building-it](https://github.com/DriesH/poc-binary-computer/blob/master/images/me-building-it.gif)
