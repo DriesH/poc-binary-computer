@@ -1,4 +1,4 @@
-# Proof of Concept: Can you build an 8bit adding and subtracting ALU.
+# Proof of Concept: Can you build an 8bit computer ALU.
 
 ![header-img](https://github.com/DriesH/poc-binary-computer/blob/master/images/header-img.jpg)
 
@@ -56,7 +56,7 @@ Dus ***1*** 1111111 is -1 in decimaal. Enzovoort.
 
 ## Besluit
 
-Je kan dus een 8 bit adder/subtracter maken, het enige nadeel is, binair lezen is verdomt moeilijk! :p
+Je kan dus het begin van een 8 bit computer maken, maar het is vraagt verdomt veel werk... Ik heb nu een deel gemaakt van de ALU, het optellen en aftrekken, alles in binair. Ook iets wat niet gemakkelijk is om te lezen. Zeker niet als je negatief gaat en met two's complement gaat werken.
 
 ## Disclaimer
 
